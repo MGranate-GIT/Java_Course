@@ -1,0 +1,48 @@
+package application;
+
+
+import java.text.ParseException;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Scanner;
+
+import Entities.EmployeeV2_List;
+
+public class EmployeeListing {
+
+	public static void main(String[] args) throws ParseException{
+
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.print("How many employees will be registered?");
+		int n = sc.nextInt();
+		
+		List<EmployeeV2_List> list = new ArrayList<>();
+		
+		for (int i=1; i<=n; i++) {
+			System.out.println();
+			System.out.println("Employee #" + i + ":");
+			
+			System.out.print("Id: ");
+			sc.nextLine();
+			int id = sc.nextInt();
+			System.out.print("Name: ");
+			sc.nextLine();			
+			String name = sc.nextLine();
+			System.out.print("Salary: ");
+			double salary = sc.nextDouble();
+			
+			list.add(new EmployeeV2_List(id, name, salary));	
+		}
+		
+		
+		
+		for (EmployeeV2_List x : list) {
+			System.out.println();
+			System.out.println(x);
+		}
+
+		sc.close();
+	}
+
+}

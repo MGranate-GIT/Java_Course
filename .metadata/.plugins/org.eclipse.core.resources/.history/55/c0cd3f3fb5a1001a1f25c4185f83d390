@@ -1,0 +1,26 @@
+// 1 - INTRODUÇÂO
+/*
+public class Main {
+
+	public static void main(String[] args) {
+		System.out.println("Hello World");  // println - quebra de linha
+		System.out.print("My name is Manuel"); // print - sem quebra de linha
+
+	}
+
+}
+*/
+
+// 2 - Variable Declaration
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		int y = 32;
+		
+		System.out.println(y);
+
+	}
+
+}

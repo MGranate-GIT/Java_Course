@@ -1,0 +1,9 @@
+package application;
+
+public class Contracts {
+
+	public static void main(String[] args) {
+
+	}
+
+}

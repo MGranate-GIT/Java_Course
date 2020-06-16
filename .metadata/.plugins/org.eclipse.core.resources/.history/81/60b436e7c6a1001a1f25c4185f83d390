@@ -1,0 +1,293 @@
+
+// 1 - INTRODUÇÂO
+
+/*
+public class Main {
+
+	public static void main(String[] args) {
+		System.out.println("Hello World");  // println - quebra de linha
+		System.out.print("My name is Manuel"); // print - sem quebra de linha
+
+	}
+
+}
+*/
+
+// 2 - Variable Declaration
+
+/* 
+  %f = ponto flutuante
+  %d = inteiro
+  %s = texto
+  %n ou \n = quebra de linha
+ */
+
+import java.util.Locale; //needed for Locale.setDefault
+/*
+public class Main {
+
+	public static void main(String[] args) {
+		
+		int y = 32;
+		double x = 10.35784;	
+		String nome = "Maria";
+		int idade = 31;
+		double renda = 4000.0;
+		
+		System.out.println(y);
+		System.out.printf("%.2f%n", x); //printf - print formatado 
+		Locale.setDefault(Locale.US);
+		System.out.printf("%.4f%n", x);
+		System.out.println("RESULTADO = " + x + " METROS");
+		System.out.printf("RESULTADO =  %.2f metros\n" ,  x);
+
+		System.out.printf("%s tem %d anos e ganha R$ %.2f reais%n", nome, idade, renda);
+
+	}
+
+}
+*/
+
+// 3 - EXERCÍCIO
+/*
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		String product1 = "Computer";
+		String product2 = "Office desk";
+		int age = 30;
+		int code = 5290;
+		char gender = 'F';
+		double price1 = 2100.0;
+		double price2 = 650.50;
+		double measure = 53.234567;
+		
+		Locale.setDefault(Locale.FRENCH);
+		System.out.println("Products:");
+		System.out.printf("%s, which price is $ %.2f\n", product1, price1);
+		System.out.printf("%s, which price is $ %.2f\n", product2, price2);
+		System.out.printf("\nRecord: %d years old, code %d and gender: %s%n", age, code, gender);
+		System.out.printf("\nMeasure with eight decimal places: %.8f%n", measure);
+		System.out.printf("Rounded (three decimal places): %.3f%n", measure);
+		Locale.setDefault(Locale.US);
+		System.out.printf("US decimal points =  %.3f ",  measure);
+
+	}
+
+}
+*/
+
+// 4 - PROCESSAMENTO DE DADOS EM JAVA CASTING
+
+/*
+public class Main {
+
+	public static void main(String[] args) {
+	double b, B, h, area;
+	
+	b = 6.0;
+	B = 8.0;
+	h = 5.0;
+	area = (b + B) / 2.0 * h; 		
+	
+	System.out.println(area);
+
+		
+	}
+}
+*/
+
+/*
+public class Main {
+
+	public static void main(String[] args) {
+	int a, b;
+	double resultado;
+	b = 2;
+	a = 5;
+	
+	resultado = (double) a / b; // CASTING (double) (int) (etc.....) 		
+	
+	System.out.println(resultado);
+
+		
+	}
+}
+*/
+
+// 5 - ENTRADA DE DADOS EM JAVA
+
+import java.util.Scanner;
+/*
+public class Main {
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		
+		String x;
+		x = sc.next();
+		System.out.println("Digitaste: " + x);		
+				
+		sc.close();		
+
+	}
+}
+*/
+/*
+public class Main {
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		
+		int x;
+		x = sc.nextInt();
+		System.out.println("Digitaste: " + x);		
+				
+		sc.close();		
+
+	}
+}
+*/
+/*
+public class Main {
+
+	public static void main(String[] args) {
+		Locale.setDefault(Locale.US);
+	
+		Scanner sc = new Scanner(System.in);
+		
+		double x;
+		x = sc.nextDouble();
+		System.out.println("Digitaste: " + x);		
+				
+		sc.close();		
+
+	}
+}
+*/
+/*
+public class Main {
+
+	public static void main(String[] args) {
+		Locale.setDefault(Locale.US);
+	
+		Scanner sc = new Scanner(System.in);
+		
+		char x;
+		x = sc.next().charAt(0);
+		System.out.println("Digitaste: " + x);		
+				
+		sc.close();		
+
+	}
+}
+*/
+/*
+public class Main {
+
+	public static void main(String[] args) {
+		Locale.setDefault(Locale.US);
+	
+		Scanner sc = new Scanner(System.in);
+		
+		String x;
+		int y;
+		double z;	
+		
+		x = sc.next();
+		y = sc.nextInt();
+		z = sc.nextDouble();
+		
+		System.out.println("Dados Inseridos: " + "\n" + x + "\n"  + y + "\n" + z);		
+				
+		sc.close();		
+
+	}
+}
+*/
+
+/*
+public class Main {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		
+		int x;
+		String s1, s2, s3;
+		
+		x = sc.nextInt();
+		sc.nextLine();
+		s1 = sc.nextLine();
+		s2 = sc.nextLine();
+		s3 = sc.nextLine();
+		
+		System.out.println("DADOS DIGITADOS:");
+		System.out.println(x);
+		System.out.println(s1);
+		System.out.println(s2);
+		System.out.println(s3);
+		
+		sc.close();
+	}
+}
+*/
+
+// 6 - MATHEMATICAL FUNCTIONS 
+
+/*
+A = Math.sqrt(x) - square root of x 
+A = Math.pow(x, y) - x^y
+A = Math.abs(x) - absolute value of x
+ */
+
+/*
+public class Main {
+	public static void main(String[] args) {
+		
+		double x = 3.0;
+		double y = 4.0;
+		double z = -5.0;
+		double A, B, C;
+		
+		A = Math.sqrt(x);
+		B = Math.sqrt(y);
+		C = Math.sqrt(25.0);
+		System.out.println("Raiz quadrada de " + x + " = " + A);
+		System.out.println("Raiz quadrada de " + y + " = " + B);
+		System.out.println("Raiz quadrada de 25 = " + C);
+		
+		A = Math.pow(x, y);
+		B = Math.pow(x, 2.0);
+		C = Math.pow(5.0, 2.0);
+		System.out.println(x + " elevado a " + y + " = " + A);
+		System.out.println(x + " elevado ao quadrado = " + B);
+		System.out.println("5 elevado ao quadrado = " + C);
+		
+		A = Math.abs(y);
+		B = Math.abs(z);
+		System.out.println("Valor absoluto de " + y + " = " + A);
+		System.out.println("Valor absoluto de " + z + " = " + B);
+	}
+}
+*/
+
+// 7 - MY EXERCISE
+public class Main {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		
+		double a, b, c, delta, x1, x2;
+		
+		a = sc.nextInt();
+		b = sc.nextInt();
+		c = sc.nextInt();
+		delta = Math.pow(b, 2.0) - 4*a*c;
+		x1 = (-b + Math.sqrt(delta)) / (2.0 * a);
+		x2 = (-b - Math.sqrt(delta)) / (2.0 * a);
+		System.out.printf("x = %d%.3f or x= %d%.3f", x1, x2);
+		sc.close();
+	}
+}

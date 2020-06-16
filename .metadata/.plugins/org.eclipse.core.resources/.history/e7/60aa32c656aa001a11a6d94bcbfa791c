@@ -1,0 +1,10 @@
+package entities;
+
+public class Product_Order {
+	
+	private String name;
+	public Double price;
+
+
+
+}

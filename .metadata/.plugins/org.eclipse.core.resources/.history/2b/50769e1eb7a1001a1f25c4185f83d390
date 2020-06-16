@@ -1,0 +1,32 @@
+import java.util.Locale; //needed for Locale.setDefault
+
+
+// 1 - INTRODUÇÂO
+/*
+public class Main {
+
+	public static void main(String[] args) {
+		System.out.println("Hello World");  // println - quebra de linha
+		System.out.print("My name is Manuel"); // print - sem quebra de linha
+
+	}
+
+}
+*/
+
+// 2 - Variable Declaration
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		int y = 32;
+		double x = 10.35784;
+		System.out.println(y);
+		System.out.printf("%.2f%n", x); //printf - print formatado |  %.2f - 2 casas decimais | %n or \n - quebra de linha
+		Locale.setDefault(Locale.US);
+		System.out.printf("%.4f%n", x);
+		System.out.println("RESULTADO = " + x + "METROS");
+	}
+
+}

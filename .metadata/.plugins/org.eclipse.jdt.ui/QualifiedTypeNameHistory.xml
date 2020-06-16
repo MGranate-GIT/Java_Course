@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="java.sql.Date"/>
+    <fullyQualifiedTypeName name="java.text.ParseException"/>
+    <fullyQualifiedTypeName name="java.time.Instant"/>
+    <fullyQualifiedTypeName name="java.util.TimeZone"/>
+    <fullyQualifiedTypeName name="entities.product"/>
+    <fullyQualifiedTypeName name="entities.usedProduct"/>
+    <fullyQualifiedTypeName name="entities.importedProduct"/>
+    <fullyQualifiedTypeName name="entities.individual"/>
+    <fullyQualifiedTypeName name="entities.company"/>
+    <fullyQualifiedTypeName name="entities.taxPayer"/>
+    <fullyQualifiedTypeName name="java.util.concurrent.TimeUnit"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="java.text.SimpleDateFormat"/>
+    <fullyQualifiedTypeName name="java.util.Date"/>
+    <fullyQualifiedTypeName name="entities.reservation"/>
+</qualifiedTypeNameHistroy>

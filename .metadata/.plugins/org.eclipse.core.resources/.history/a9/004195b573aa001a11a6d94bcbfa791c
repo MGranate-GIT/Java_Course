@@ -1,0 +1,26 @@
+package application;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Scanner;
+
+import entities.Employee;
+
+public class Program {
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		
+		List<Employee> list = new ArrayList<>();
+		
+		System.out.println("Enter the number of employees:");
+		int n = sc.nextInt();
+		
+		
+		
+		sc.close();
+		
+	}
+		
+}
