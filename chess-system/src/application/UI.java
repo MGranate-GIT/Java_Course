@@ -164,7 +164,7 @@ return mat;
 	private static void printPiece(ChessPiece piece, boolean back) {
 
 		if (back) {
-			System.out.print(GREEN_BACKGROUND_BRIGHT);
+			System.out.print(RED_BACKGROUND_BRIGHT);
 		
 		}
 		if (piece == null) {
@@ -175,7 +175,7 @@ return mat;
                 System.out.print(WHITE_BOLD_BRIGHT + piece + ANSI_RESET);
             }
             else {
-                System.out.print(BLUE_BOLD_BRIGHT + piece + ANSI_RESET);
+                System.out.print(YELLOW_BOLD_BRIGHT + piece + ANSI_RESET);
             }
         }
 	}
@@ -189,7 +189,7 @@ return mat;
 		System.out.println(Arrays.toString(white.toArray()));
 		System.out.print(ANSI_RESET);
 		System.out.print("Black: ");
-		System.out.print(BLUE_BOLD_BRIGHT);
+		System.out.print(YELLOW_BOLD_BRIGHT);
 		System.out.println(Arrays.toString(black.toArray()));
 		System.out.print(ANSI_RESET);
 
