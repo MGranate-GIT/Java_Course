@@ -8,7 +8,7 @@ import java.util.Scanner;
 import model.entities.Account;
 import model.exceptions.DomainException;
 
-public class program {
+public class Program {
 
 	public static void main(String[] args) {
 

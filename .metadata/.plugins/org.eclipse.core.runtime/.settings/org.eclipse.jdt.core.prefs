@@ -12,3 +12,4 @@ org.eclipse.jdt.core.compiler.problem.enumIdentifier=error
 org.eclipse.jdt.core.compiler.problem.reportPreviewFeatures=warning
 org.eclipse.jdt.core.compiler.release=disabled
 org.eclipse.jdt.core.compiler.source=11
+org.eclipse.jdt.core.userLibrary.MySQLConnector=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<userlibrary systemlibrary\="false" version\="2">\r\n\t<archive path\="C\:/Java-Libs/JDBC-connectors/mysql-connector-java-8.0.20.jar"/>\r\n</userlibrary>\r\n
